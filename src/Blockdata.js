@@ -24,7 +24,7 @@ function Blockdata({ blockNumber, setBlockNumber, metadata, setMetadata }) {
     <div className="container wallet">
       <h1>Block Data</h1>
       <div className="balance">Block Number: {blockNumber}</div>
-      <div className="balance">Block Metadata:{JSON.stringify(metadata)}</div>
+      <div className="balance">Block data:{JSON.stringify(metadata)}</div>
     </div>
   );
 }
